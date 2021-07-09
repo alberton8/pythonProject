@@ -4,7 +4,7 @@ language: python
 
 deploy:
   provider: releases
-  api_key: 'tok'
+  api_key: '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'
   file: 'bin/mobileapp001-0.1-arm64-v8a-debug.apk'
   skip_cleanup: true
   on:
