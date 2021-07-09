@@ -1,0 +1,49 @@
+<Container>:
+
+    orientation: 'vertical'
+    padding: 20
+    dost: label
+    but: button
+
+
+    BoxLayout:
+
+        size_hint: 1, 0.1
+
+        Label:
+            id: label
+            text: ''
+
+        Button:
+            id: button
+            text: 'Подключиться'
+            on_press: root.sm()
+
+
+    BoxLayout:
+
+        BoxLayout:
+
+            Button:
+                text: 'влево'
+                on_press: root.signal(1)
+                on_release: root.signal(5)
+
+            Button:
+                text: 'вправо'
+                on_press: root.signal(2)
+                on_release: root.signal(5)
+
+        BoxLayout:
+
+            orientation: 'vertical'
+
+            Button:
+                text: 'вперёд'
+                on_press: root.signal(3)
+                on_release: root.signal(6)
+
+            Button:
+                text: 'назад'
+                on_press: root.signal(4)
+                on_release: root.signal(6)
