@@ -49,7 +49,7 @@ requirements = hostpython3,libffi,openssl,sdl2_image,sdl2_mixer,sdl2_ttf,sqlite3
 #icon.filename = %(source.dir)s/data/logo/logo512min.png
 
 # (str) Supported orientation (one of landscape, sensorLandscape, portrait or all)
-orientation = all
+orientation = portrait
 
 # (list) List of service to declare
 #services = NAME:ENTRYPOINT_TO_PY,NAME2:ENTRYPOINT2_TO_PY
