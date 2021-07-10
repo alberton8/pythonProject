@@ -24,10 +24,10 @@ install:
   - pip3 install --upgrade Cython==0.29.19 virtualenv
   - export PATH=$PATH:~/.local/bin/
   - ls -l
-  - echo "TODO COMPILE 64bit"
+  - echo "TODO COMPILE 32bit"
   - yes | buildozer android debug
   - ls -la
   - ls bin/ -l
   - gem install dpl --pre
-  - dpl releases --token $TES --file "bin/mobileapp006-0.1-armeabi-v7a-debug.apk" --tag_name "v.0.1"
+  - dpl releases --token $TES --file "bin/mobileapp007-0.1-armeabi-v7a-debug.apk" --tag_name "v.0.1"
   - echo "TODO 2"
