@@ -1,10 +1,10 @@
 [app]
 
 # (str) Title of your application
-title = Mobile App 009
+title = Mobile App 010
 
 # (str) Package name
-package.name = mobileapp009
+package.name = mobileapp010
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.albert
@@ -36,7 +36,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = hostpython3,libffi,openssl,sdl2_image,sdl2_mixer,sdl2_ttf,sqlite3,python3,sdl2,setuptools,six,pyjnius,android,kivy,jnius,pyjnius
+requirements = hostpython2,libffi,openssl,sdl2_image,sdl2_mixer,sdl2_ttf,sqlite2,python2,sdl2,setuptools,six,pyjnius,android,kivy,jnius,pyjnius
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -62,10 +62,10 @@ orientation = all
 # author = © Copyright Info
 
 # change the major version of python used by the app
-osx.python_version = 3.8
+osx.python_version = 2.7
 
 # Kivy version to use
-osx.kivy_version = 2.0.0
+#osx.kivy_version = 2.0.0
 
 #
 # Android specific
