@@ -1,10 +1,10 @@
 [app]
 
 # (str) Title of your application
-title = Mobile App 008
+title = Mobile App 009
 
 # (str) Package name
-package.name = mobileapp008
+package.name = mobileapp009
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.albert
@@ -62,7 +62,7 @@ orientation = all
 # author = © Copyright Info
 
 # change the major version of python used by the app
-osx.python_version = 3
+osx.python_version = 3.8
 
 # Kivy version to use
 osx.kivy_version = 2.0.0
