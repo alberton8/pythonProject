@@ -1,10 +1,10 @@
 [app]
 
 # (str) Title of your application
-title = Mobile App 007
+title = Mobile App 008
 
 # (str) Package name
-package.name = mobileapp007
+package.name = mobileapp008
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.albert
