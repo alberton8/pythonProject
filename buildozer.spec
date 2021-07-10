@@ -1,10 +1,10 @@
 [app]
 
 # (str) Title of your application
-title = Mobile App 005
+title = Mobile App 006
 
 # (str) Package name
-package.name = mobileapp005
+package.name = mobileapp006
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.albert
@@ -226,7 +226,7 @@ fullscreen = 1
 #android.copy_libs = 1
 
 # (str) The Android arch to build for, choices: armeabi-v7a, arm64-v8a, x86, x86_64
-android.arch = arm64-v8a
+android.arch = armeabi-v7a
 
 # (int) overrides automatic versionCode computation (used in build.gradle)
 # this is not the same as app version and should only be edited if you know what you're doing
